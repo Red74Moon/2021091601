@@ -12,5 +12,7 @@ int main()
     cout << MyGold << endl;
     cout << HP << endl;
     cout << H << endl;
+
+    return 0;
 }
 
