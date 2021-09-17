@@ -10,11 +10,14 @@ int main()
     // **---
     // ***--
     // ****-
-    // *****
+    // *****   의 역삼각형
 
-    for (int i = 0; i < 5; i++)
+    int Max = 0;
+    cin >> Max;
+
+    for (int i = 0; i <= Max; i++)
     {
-        for (int j = 0; j <= i; j++)
+        for (int j = Max; j >= i; j--)
         {
             cout << "*";
         }
