@@ -5,11 +5,11 @@ using namespace std;
 
 int main()
 {
-    // 홀수의 합
+    // 3의 배수 합
 
     int Total = 0;
   
-    for (int Count = 1; Count <= 100; Count = Count + 2) 
+    for (int Count = 3; Count <= 100; Count = Count + 3) 
     {
      Total = Total + Count;
     }
