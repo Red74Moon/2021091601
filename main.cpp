@@ -5,11 +5,11 @@ using namespace std;
 
 int main()
 {
-    // 짝수의 합
+    // 홀수의 합
 
     int Total = 0;
   
-    for (int Count = 2; Count <= 100; Count = Count + 2) 
+    for (int Count = 1; Count <= 100; Count = Count + 2) 
     {
      Total = Total + Count;
     }
