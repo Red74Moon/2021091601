@@ -6,22 +6,26 @@ using namespace std;
 
 int main()
 {   
-    // *----
-    // **---
-    // ***--
-    // ****-
-    // *****   의 역삼각형
+    // ----*
+    // ---**
+    // --***
+    // -****
+    // *****
 
     int Max = 0;
     cin >> Max;
 
-    for (int i = 0; i <= Max; i++)
+    for (int i = 0; i < Max; i++)
     {
-        for (int j = Max; j >= i; j--)
+        for (int j = Max - 1; j > i; j--)
+        {
+            cout << " ";
+        }
+        for (int k = 0; k <= i; k++) 
         {
             cout << "*";
         }
-        cout << endl;
+        cout  << endl;
     }
 
     return 0;  
