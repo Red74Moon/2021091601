@@ -6,26 +6,15 @@ using namespace std;
 
 int main()
 {   
-    // ----*
-    // ---**
-    // --***
-    // -****
-    // *****  역삼각형 대칭
+    // 배열 초기화 공부
 
-    int Max = 0;
-    cin >> Max;
+    int Arr[100];
 
-    for (int i = 0; i < Max; i++)
+    for (int i = 0; i < 100; i++)
     {
-        for (int j = Max - 1; j > i; j--)
-        {
-            cout << " ";
-        }
-        for (int k = 0; k <= i; k++) 
-        {
-            cout << "*";
-        }
-        cout  << endl;
+        Arr[i] = i+1;
+        cout << Arr[i] << " ";
+
     }
 
     return 0;  
